@@ -1,0 +1,6 @@
+#!/bin/sh
+#       if the prepared commit message ends with "Checkpoint", abort the commit
+if grep -q "Checkpoint$" "$1"; then
+        echo "Skipping default commit" >> /tmp/message
+        exit 1
+fi
