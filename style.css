@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+footer{
+    font-size: smaller;
+    margin-top: 2em;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 11pt;
+    background-color: #222224;
+    color: lightgray;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+body>p::first-letter {
+    font-size: 16pt;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+h2 {
+    font-size: 170%;
+    clear: both;
+}
+p {
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+article p::first-letter {
+    font-size: 16pt;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 0;
+}
+header blockquote {
+    margin-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 2px rgb(8, 108, 141) solid;
+}
+blockquote{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 16pt;
+    background-color: #222224;
+}
+#assinatura {
+    font-family: 'Dancing Script', cursive;
+}
