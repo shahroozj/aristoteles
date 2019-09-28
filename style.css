@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 
 footer{
     font-size: smaller;
     margin-top: 2em;
 }
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#foto{
+    width: 315px;
+    height: 259px;
+    display: block;
+    margin: 0 auto;
+}
+figcaption {
+    text-align: center;
+    line-height: 2;
+    font-size: 1em;
     font-weight: 100;
+}
+body {
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 11pt;
     background-color: #222224;
     color: lightgray;
@@ -19,11 +30,12 @@ body>p::first-letter {
 }
 
 h1 {
-    font-weight: 900;
-    font-size: xx-large;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: Mansalva, Verdana, sans-serif;
 }
 h2 {
-    font-size: 170%;
+    font-size: 2em;
     clear: both;
 }
 p {
