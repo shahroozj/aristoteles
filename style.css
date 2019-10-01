@@ -22,13 +22,14 @@ body {
     font-size: 11pt;
     background-color: #222224;
     color: lightgray;
-    margin-left: 1em;
-    margin-right: 1em;
 }
-body>p::first-letter {
+main>p::first-letter {
     font-size: 16pt;
 }
-
+main {
+    width: 80%;
+    margin: 0 auto;
+}
 h1 {
     font-weight: bold;
     font-size: 3em;
@@ -65,4 +66,37 @@ blockquote{
 }
 #assinatura {
     font-family: 'Dancing Script', cursive;
+}
+@media (min-width: 800px){
+    main>p {
+        position: relative;
+        font-size: 16pt;
+        top: 150px;
+}
+    figure{
+        float: left;
+        box-sizing: border-box;
+        margin: 0 2em 2em 0;
+    }
+    main {
+        width: 80%;
+        margin: 0 auto 4em auto;
+}
+    #foto{
+        width: 630px;
+        height: 518px;
+}
+    figcaption {
+        text-align: center;
+        line-height: 2;
+        font-size: 1em;
+        font-weight: 100;
+    }
+    footer{
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        clear: both;
+    }
 }
