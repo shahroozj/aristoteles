@@ -44,6 +44,10 @@ p {
   line-height: 1.5;
   text-indent: 2em;
 }
+.first-letter{
+  color: #b0a17b;
+  font-weight: bold;
+}
 article p::first-letter {
   font-size: 16pt;
 }
