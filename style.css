@@ -52,11 +52,13 @@ header {
 }
 header h1 {
   margin-bottom: 0;
+  font-family: "Big Shoulders Display", cursive;
 }
 header blockquote {
   margin-top: 1em;
   padding-bottom: 1em;
   border-bottom: 2px rgb(8, 108, 141) solid;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 blockquote {
   font-family: "Dancing Script", cursive;
